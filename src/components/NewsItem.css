@@ -1,0 +1,6 @@
+.badge_in { 
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+}
