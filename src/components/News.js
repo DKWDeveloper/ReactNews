@@ -100,6 +100,7 @@ export default class News extends Component {
   render() {
     return (
       <>
+      <h1> MY NEWS APP</h1>
         <h1 style={{ margin: "40px 0px", marginTop: "90px" }} className="text-center">News App - Top {this.capitalizeFirstLetter(this.props.category)} Headlines </h1>
         {this.state.loading && <Spinner />}
         <InfiniteScroll
